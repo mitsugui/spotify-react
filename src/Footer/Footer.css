@@ -1,0 +1,46 @@
+
+.disclaimer-premium {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(to right, #ae2896, #509bf5);
+    padding: 1rem 2.5rem;
+    display: flex;
+    justify-content: space-between;
+    gap: 0.625rem;
+    cursor: pointer;
+}
+
+.disclaimer-premium .text {
+    color: var(--text-base-light);
+}
+
+.disclaimer-premium .disclaimer-premium__title {
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 0.75rem;
+    margin-bottom: 0.625rem;
+}
+
+.disclaimer-premium .disclaimer-premium__subtitle {
+    font-size: 0.875rem;
+    font-weight: 500;
+}
+
+.disclaimer-premium button {
+    color: var(--text-base-dark);
+    background-color: #fff;
+    font-size: 1rem;
+    font-weight: 700;
+    padding: 0.875rem 1.875rem;
+    border: 0;
+    border-radius: 2.5rem;
+    flex-shrink: 0;
+}
+
+.disclaimer-premium button:hover {
+    transform: scale(1.04);
+    opacity: 0.9;
+    border-radius: 2.5rem;
+}
